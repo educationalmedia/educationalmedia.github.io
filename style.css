@@ -1,0 +1,112 @@
+/* Reset default margins and paddings */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background colors */
+body {
+    background-color: #f0f0f0; /* Light gray */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #212121; /* Dark gray */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333; /* Dark gray */
+    padding: 10px 0;
+    border-top: 1px solid #444; /* Slightly darker gray */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White */
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #90caf9; /* Light blue on hover */
+}
+
+/* Style the featured content section */
+.featured {
+    padding: 30px;
+    background-color: #ffffff; /* White */
+    border-bottom: 1px solid #ccc; /* Light gray */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center;
+}
+
+.featured h2 {
+    color: #333; /* Dark gray */
+    margin-bottom: 20px;
+}
+
+.featured-video iframe,
+.featured-photo img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Light gray border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.featured-article {
+    background-color: #f5f5f5; /* Light gray */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.featured-article h3 {
+    color: #333; /* Dark gray */
+}
+
+.featured-article p {
+    color: #555; /* Gray */
+    margin: 10px 0;
+}
+
+.featured-article a {
+    color: #90caf9; /* Light blue */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.featured-article a:hover {
+    color: #64b5f6; /* Slightly darker light blue on hover */
+}
+
+/* Style the recent media section */
+.recent {
+    padding: 30px;
+    background-color: #ffffff; /* White */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.recent h2 {
+    color: #333; /* Dark gray */
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #212121; /* Dark gray */
+    color: #fff; /* White text */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Add additional styles as needed */
